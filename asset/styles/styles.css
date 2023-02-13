@@ -42,7 +42,12 @@ i {
 .projects {
     flex-direction: column;
 }
-
+.preview-project {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    /*width: 240px;*/
+}
 .techno {
     font-size: 1rem;
 }
@@ -59,7 +64,7 @@ i {
 }
 
 .firstname-lastname {
-    font-size: 7.5rem;
+    font-size: 7rem;
     color: #3ce0ff;
 }
 
@@ -74,5 +79,9 @@ i {
         margin: auto;
         flex-direction: inherit;
         flex-wrap: wrap;
+    }
+    .preview-project {
+        height: 175px;
+        /*width: 335px;*/
     }
 }

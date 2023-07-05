@@ -85,3 +85,12 @@ i {
         /*width: 335px;*/
     }
 }
+
+.link-for-web-extern:hover {
+    color: #02CF4B !important;
+}
+
+.tel-link {
+    text-decoration: none;
+    color: white;
+}

@@ -13,6 +13,7 @@
             crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/61fed8f126.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="asset/styles/styles.css">
+    <link rel="shortcut icon" href="asset/images/me.jpg" type="image/x-icon">
 </head>
 <body>
 <header class="header-container text-secondary">
@@ -30,7 +31,7 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link active text-light" aria-current="page" href="/">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a href="#competences" class="nav-link text-light">Compétences</a>
@@ -107,7 +108,7 @@
     <div class="mt-5" id="projects">
         <h3>Projets</h3>
         <hr class="w-75 border-light">
-        <div class="d-flex projects">
+        <div class="d-flex projects col-12">
             <div class="col-11 mx-auto box-for-project rounded col-lg-5">
                 <div class="d-flex justify-content-between mt-2 align-items-center">
                     <!--                <i class="fa-solid fa-folder ms-1"></i>-->
@@ -180,8 +181,34 @@
                 <p>Application web de gestion de prises de décisions dans une entreprise.</p>
                 <i class="techno ms-2">Symfony / JS / Bootstrap</i><br>
             </div>
+            <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
+                <div class="d-flex justify-content-between mt-2 align-items-center">
+                    <a href="https://github.com/Killrian47/QSAProjectV3"><i
+                            class="fa-brands fa-github me-1"></i></a>
+                    <!--                <i class="fa-solid fa-globe"></i>-->
+                </div>
+                <h5 class="text-center py-2 border-bottom">Projet site web pour QSA Conseil</h5>
+                <img src="asset/images/qsa-project.png" alt="preview QSA Conseil project" class="preview-project">
+                <p>Application web pour simplifier l'envoi et la réception d'échantillons pour le laboratoire.</p>
+                <i class="techno ms-2">Symfony / JS / Bootstrap</i><br>
+            </div>
         </div>
     </div>
 </main>
+<footer class="footer p-5 mt-5">
+    <div class="d-flex justify-content-between">
+        <div>
+            <p class="">Mes contacts :    
+                <a class="me-2" target="_blank" href="https://www.linkedin.com/in/killian-portier-784885224/"><i class="fa-brands fa-linkedin text-white "></i></a>
+                <a class="me-2" target="_blank" href="https://github.com/Killrian47"><i class="fa-brands fa-github text-white"></i></a>
+                <a class="me-2" href="mailto:portier.killian@yahoo.com"><i class="fa-solid fa-envelope text-white"></i></a>
+                <a class="me-2 tel-link" href="tel:0695357408">06.95.35.74.08</a>
+            </p>
+        </div>
+        <div>
+            <p>© 2023 Killian PORTIER</p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

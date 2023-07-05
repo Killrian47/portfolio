@@ -23,7 +23,9 @@ i {
     color: #06B6D4;
     font-size: 1.5rem;
 }
-
+.main-container {
+    margin-top: 75px;
+}
 .competences-list {
     flex-direction: column;
 }

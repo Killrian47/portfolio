@@ -1,217 +1,331 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Killian</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/61fed8f126.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="asset/styles/styles.css">
-    <link rel="shortcut icon" href="asset/images/me.jpg" type="image/x-icon">
-</head>
-<body>
-<header class="header-container text-secondary fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/61fed8f126.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="asset/styles/styles.css" />
+    <link rel="shortcut icon" href="asset/images/me.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header-container text-secondary fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="/">
-<!--                <img src="asset/images/logo.png" alt="logo" height="75" width="75">-->
-                <p style="font-size: 1rem">Home</p>
-            </a>
-            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="/">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#competences" class="nav-link text-light">Compétences</a>
-                    </li>
-                    <!--                    <li class="nav-item">-->
-                    <!--                        <a href="#" class="nav-link text-light">Expériences</a>-->
-                    <!--                    </li>-->
-                    <li class="nav-item">
-                        <a href="#projects" class="nav-link text-light">Projets</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contacts" class="nav-link text-light">Contacts</a>
-                    </li>
-                </ul>
-            </div>
+          <a class="navbar-brand text-light" href="/">
+            <!--                <img src="asset/images/logo.png" alt="logo" height="75" width="75">-->
+            <p style="font-size: 1rem">Home</p>
+          </a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="/"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#competences" class="nav-link text-light"
+                  >Compétences</a
+                >
+              </li>
+              <!--                    <li class="nav-item">-->
+              <!--                        <a href="#" class="nav-link text-light">Expériences</a>-->
+              <!--                    </li>-->
+              <li class="nav-item">
+                <a href="#projects" class="nav-link text-light">Projets</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link text-light">Contacts</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<main class="main-container col-8 mx-auto">
-    <div class="d-flex justify-content-center align-items-center my-5 flex-column">
-        <img src="asset/images/me.jpg" alt="ME" class="rounded-circle" width="175" height="175">
-    </div>
-    <div>
+    <main class="main-container col-8 mx-auto">
+      <div
+        class="d-flex justify-content-center align-items-center my-5 flex-column"
+      >
+        <img
+          src="asset/images/me.jpg"
+          alt="ME"
+          class="rounded-circle"
+          width="175"
+          height="175"
+        />
+      </div>
+      <div>
         <p>Bonjour je suis</p>
         <h2 class="firstname-lastname">Killian Portier</h2>
-        <p>Développeur web PHP/Symfony junior en recherche d'alternance pour Septembre 2023</p>
-        <a href="https://github.com/Killrian47/" class="btn button mt-3" target="_blank">Github</a>
-    </div>
+        <p>
+          Développeur web PHP/Symfony junior en recherche d'alternance pour
+          Septembre 2024
+        </p>
+        <a
+          href="https://github.com/Killrian47/"
+          class="btn button mt-3"
+          target="_blank"
+          >Github</a
+        >
+      </div>
 
-    <div>
+      <div>
         <h3 class="mt-5" id="competences">Compétences</h3>
-        <hr class="border-light w-75">
+        <hr class="border-light w-75" />
         <div class="d-flex col-10 mx-auto competences-list">
-            <div class="col-md-3">
-                <h5 class="title-competence">Front end</h5>
-                <div class="d-flex list-techno mb-2">
-                    <i class="fa-brands fa-html5 mt-1 me-1"></i>
-                    <p>HTML</p>
-                </div>
-                <div class="d-flex list-techno mb-2">
-                    <i class="fa-brands fa-css3-alt mt-1 me-1"></i>
-                    <p>CSS</p>
-                </div>
-                <div class="d-flex list-techno mb-2">
-                    <i class="fa-brands fa-bootstrap mt-1 me-1"></i>
-                    <p>Bootstrap</p>
-                </div>
-                <div class="d-flex list-techno mb-2">
-                    <p>Twig</p>
-                </div>
+          <div class="col-md-3">
+            <h5 class="title-competence">Front end</h5>
+            <div class="d-flex list-techno mb-2">
+              <i class="fa-brands fa-html5 mt-1 me-1"></i>
+              <p>HTML</p>
             </div>
-            <div class="col-md-3">
-                <h5 class="title-competence">Back end</h5>
-                <div class="d-flex list-techno mb-2">
-                    <i class="fa-brands fa-php mt-1 me-1"></i>
-                    <p>PHP</p>
-                </div>
-                <div class="d-flex list-techno mb-2">
-                    <i class="fa-brands fa-symfony mt-1 me-1"></i>
-                    <p>Symfony</p>
-                </div>
+            <div class="d-flex list-techno mb-2">
+              <i class="fa-brands fa-css3-alt mt-1 me-1"></i>
+              <p>CSS</p>
             </div>
-            <div class="col-md-3 ">
-                <h5 class="title-competence">Autre</h5>
-                <div class="d-flex list-techno mb-2">
-                    <i class="fa-brands fa-git-alt mt-1 me-1"></i>
-                    <p>Git</p>
-                </div>
-                <div class="d-flex list-techno mb-2">
-                    <p>SQL</p>
-                </div>
+            <div class="d-flex list-techno mb-2">
+              <i class="fa-brands fa-bootstrap mt-1 me-1"></i>
+              <p>Bootstrap</p>
             </div>
+            <div class="d-flex list-techno mb-2">
+              <p>Twig</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h5 class="title-competence">Back end</h5>
+            <div class="d-flex list-techno mb-2">
+              <i class="fa-brands fa-php mt-1 me-1"></i>
+              <p>PHP</p>
+            </div>
+            <div class="d-flex list-techno mb-2">
+              <i class="fa-brands fa-symfony mt-1 me-1"></i>
+              <p>Symfony</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h5 class="title-competence">Autre</h5>
+            <div class="d-flex list-techno mb-2">
+              <i class="fa-brands fa-git-alt mt-1 me-1"></i>
+              <p>Git</p>
+            </div>
+            <div class="d-flex list-techno mb-2">
+              <p>SQL</p>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="mt-5" id="projects">
+      <div class="mt-5" id="projects">
         <h3>Projets</h3>
-        <hr class="w-75 border-light">
+        <hr class="w-75 border-light" />
         <div class="d-flex projects col-12">
-            <div class="col-11 mx-auto box-for-project rounded col-lg-5">
-                <div class="d-flex justify-content-between mt-2 align-items-center">
-                    <!--                <i class="fa-solid fa-folder ms-1"></i>-->
-                    <a href="https://github.com/Killrian47/Projet1_WCS/"><i class="fa-brands fa-github me-1"></i></a>
-                    <a href="https://projet-1-wcs.herokuapp.com" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                </div>
-                <h5 class="text-center py-2 border-bottom">CV en ligne personnage fictif</h5>
-                <img src="asset/images/projet1.png" alt="preview projet 1" class="preview-project mb-2">
-                <p>Ceci est le premier projet que nous ayons eu à faire pendant la formation de la <strong>Wild Code
-                    School</strong>.</p>
-                <p>On devait créer un CV pour un personnage fictif.</p>
-                <i class="techno ms-2">HTML / CSS / PHP</i>
+          <div class="col-11 mx-auto box-for-project rounded col-lg-5">
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <!--                <i class="fa-solid fa-folder ms-1"></i>-->
+              <a href="https://github.com/Killrian47/Projet1_WCS/"
+                ><i class="fa-brands fa-github me-1"></i
+              ></a>
+              <a href="https://projet-1-wcs.herokuapp.com" target="_blank"
+                ><i class="fa-solid fa-globe"></i
+              ></a>
             </div>
-            <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
-                <div class="d-flex justify-content-between mt-2 align-items-center">
-                    <a href="#"><i class="fa-brands fa-github me-1"></i></a>
-                    <a href="https://killianportierportfolio.netlify.app/" target="_blank"><i
-                            class="fa-solid fa-globe"></i></a>
-                </div>
-                <h5 class="text-center py-2 border-bottom">Portfolio</h5>
-                <img src="asset/images/portfolio.png" alt="preview portfolio" class="preview-project mb-2">
-                <p>Mon portfolio qui est actuellement celui sur lequel vous vous trouvez. <br> Je l'ai réalisé en HTML
-                    et en
-                    CSS avec un peu de bootstrap.</p>
-                <i class="techno ms-2">HTML / CSS / Bootstrap </i>
-            </div>
-            <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
-                <div class="d-flex justify-content-between mt-2 align-items-center">
-                    <a href="https://github.com/JohannZych/Hackathon_le5majeur"><i class="fa-brands fa-github me-1"></i></a>
-                </div>
-                <h5 class="text-center py-2 border-bottom">Martine part en voyage</h5>
-                <img src="asset/images/martine-part-en-voyage.png" alt="preview martine part en voyage" class="preview-project">
-                <p>Application web humoristique réalisé lors d'un hackathon à la <strong>Wild Code School</strong>.</p>
-                <i class="techno ms-2">PHP / Twig / CSS </i>
-            </div>
-            <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
-                <div class="d-flex justify-content-between mt-2 align-items-center">
-                    <a href="https://github.com/WildCodeSchool/2022-09-PHP-Bordeaux-Project-2-jackSparrow"><i
-                            class="fa-brands fa-github me-1"></i></a>
-                    <!--                <i class="fa-solid fa-globe"></i>-->
-
-                </div>
-                <h5 class="text-center py-2 border-bottom">Blog mangaka</h5>
-                <p>Deuxième projet réalise à la <strong>Wild Code School</strong>.</p>
-                <p>Réaliser un blog où des passionné(e)s de manga ou d'animés peuvent discuter et poster des
-                    articles.</p>
-                <i class="techno ms-2">PHP / Twig / CSS / Bootstrap / </i><br>
-                <i class="techno ms-2">Jikan API</i>
-            </div>
-            <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
-                <div class="d-flex justify-content-between mt-2 align-items-center">
-                    <a href="https://github.com/Killrian47/hackathonJs"><i class="fa-brands fa-github me-1"></i></a>
-                    <!--                <i class="fa-solid fa-globe"></i>-->
-                </div>
-                <h5 class="text-center py-2 border-bottom">Amazon renting</h5>
-                <img src="asset/images/amazon-renting.png" alt="preview amazon renting project" class="preview-project">
-                <p>Application web pour mettre en relation des entreprises qui proposent des véhicules à louer et le
-                    client.
-                    Ce projet fu réalisé lors d'un hackathon de 48 heures.</p>
-                <i class="techno ms-2">JS / CSS / Symfony </i><br>
-            </div>
-            <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
-                <div class="d-flex justify-content-between mt-2 align-items-center">
-                    <a href="https://github.com/WildCodeSchool/2022-09-PHP-Bordeaux-MakeSense"><i
-                            class="fa-brands fa-github me-1"></i></a>
-                    <!--                <i class="fa-solid fa-globe"></i>-->
-                </div>
-                <h5 class="text-center py-2 border-bottom">Makesense project</h5>
-                <img src="asset/images/makesense-project.png" alt="preview makesense project" class="preview-project">
-                <p>Application web de gestion de prises de décisions dans une entreprise.</p>
-                <i class="techno ms-2">Symfony / JS / Bootstrap</i><br>
-            </div>
-            <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
-                <div class="d-flex justify-content-between mt-2 align-items-center">
-                    <a href="https://github.com/Killrian47/QSAProjectV3"><i
-                            class="fa-brands fa-github me-1"></i></a>
-                    <!--                <i class="fa-solid fa-globe"></i>-->
-                </div>
-                <h5 class="text-center py-2 border-bottom">Projet site web pour QSA Conseil</h5>
-                <img src="asset/images/qsa-project.png" alt="preview QSA Conseil project" class="preview-project">
-                <p>Application web pour simplifier l'envoi et la réception d'échantillons pour le laboratoire.</p>
-                <i class="techno ms-2">Symfony / JS / Bootstrap</i><br>
-            </div>
-        </div>
-    </div>
-</main>
-<footer class="footer p-5 mt-5" id="contacts">
-    <div class="d-flex justify-content-between">
-        <div>
-            <p class="">Mes contacts :    
-                <a class="me-2" target="_blank" href="https://www.linkedin.com/in/killian-portier-784885224/"><i class="fa-brands fa-linkedin text-white "></i></a>
-                <a class="me-2" target="_blank" href="https://github.com/Killrian47"><i class="fa-brands fa-github text-white"></i></a>
-                <a class="me-2" href="mailto:portier.killian@yahoo.com"><i class="fa-solid fa-envelope text-white"></i></a>
-                <a class="me-2 tel-link" href="tel:0695357408">06.95.35.74.08</a>
+            <h5 class="text-center py-2 border-bottom">
+              CV en ligne personnage fictif
+            </h5>
+            <img
+              src="asset/images/projet1.png"
+              alt="preview projet 1"
+              class="preview-project mb-2"
+            />
+            <p>
+              Ceci est le premier projet que nous ayons eu à faire pendant la
+              formation de la <strong>Wild Code School</strong>.
             </p>
+            <p>On devait créer un CV pour un personnage fictif.</p>
+            <i class="techno ms-2">HTML / CSS / PHP</i>
+          </div>
+          <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <a href="#"><i class="fa-brands fa-github me-1"></i></a>
+              <a
+                href="https://killianportierportfolio.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-globe"></i
+              ></a>
+            </div>
+            <h5 class="text-center py-2 border-bottom">Portfolio</h5>
+            <img
+              src="asset/images/portfolio.png"
+              alt="preview portfolio"
+              class="preview-project mb-2"
+            />
+            <p>
+              Mon portfolio qui est actuellement celui sur lequel vous vous
+              trouvez. <br />
+              Je l'ai réalisé en HTML et en CSS avec un peu de bootstrap.
+            </p>
+            <i class="techno ms-2">HTML / CSS / Bootstrap </i>
+          </div>
+          <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <a href="https://github.com/JohannZych/Hackathon_le5majeur"
+                ><i class="fa-brands fa-github me-1"></i
+              ></a>
+            </div>
+            <h5 class="text-center py-2 border-bottom">
+              Martine part en voyage
+            </h5>
+            <img
+              src="asset/images/martine-part-en-voyage.png"
+              alt="preview martine part en voyage"
+              class="preview-project"
+            />
+            <p>
+              Application web humoristique réalisé lors d'un hackathon à la
+              <strong>Wild Code School</strong>.
+            </p>
+            <i class="techno ms-2">PHP / Twig / CSS </i>
+          </div>
+          <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <a
+                href="https://github.com/WildCodeSchool/2022-09-PHP-Bordeaux-Project-2-jackSparrow"
+                ><i class="fa-brands fa-github me-1"></i
+              ></a>
+              <!--                <i class="fa-solid fa-globe"></i>-->
+            </div>
+            <h5 class="text-center py-2 border-bottom">Blog mangaka</h5>
+            <p>
+              Deuxième projet réalise à la <strong>Wild Code School</strong>.
+            </p>
+            <p>
+              Réaliser un blog où des passionné(e)s de manga ou d'animés peuvent
+              discuter et poster des articles.
+            </p>
+            <i class="techno ms-2">PHP / Twig / CSS / Bootstrap / </i><br />
+            <i class="techno ms-2">Jikan API</i>
+          </div>
+          <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <a href="https://github.com/Killrian47/hackathonJs"
+                ><i class="fa-brands fa-github me-1"></i
+              ></a>
+              <!--                <i class="fa-solid fa-globe"></i>-->
+            </div>
+            <h5 class="text-center py-2 border-bottom">Amazon renting</h5>
+            <img
+              src="asset/images/amazon-renting.png"
+              alt="preview amazon renting project"
+              class="preview-project"
+            />
+            <p>
+              Application web pour mettre en relation des entreprises qui
+              proposent des véhicules à louer et le client. Ce projet fu réalisé
+              lors d'un hackathon de 48 heures.
+            </p>
+            <i class="techno ms-2">JS / CSS / Symfony </i><br />
+          </div>
+          <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <a
+                href="https://github.com/WildCodeSchool/2022-09-PHP-Bordeaux-MakeSense"
+                ><i class="fa-brands fa-github me-1"></i
+              ></a>
+              <!--                <i class="fa-solid fa-globe"></i>-->
+            </div>
+            <h5 class="text-center py-2 border-bottom">Makesense project</h5>
+            <img
+              src="asset/images/makesense-project.png"
+              alt="preview makesense project"
+              class="preview-project"
+            />
+            <p>
+              Application web de gestion de prises de décisions dans une
+              entreprise.
+            </p>
+            <i class="techno ms-2">Symfony / JS / Bootstrap</i><br />
+          </div>
+          <div class="col-11 mx-auto box-for-project rounded mt-3 col-lg-5">
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <a href="https://github.com/Killrian47/QSAProjectV3"
+                ><i class="fa-brands fa-github me-1"></i
+              ></a>
+              <!--                <i class="fa-solid fa-globe"></i>-->
+            </div>
+            <h5 class="text-center py-2 border-bottom">
+              Projet site web pour QSA Conseil
+            </h5>
+            <img
+              src="asset/images/qsa-project.png"
+              alt="preview QSA Conseil project"
+              class="preview-project"
+            />
+            <p>
+              Application web pour simplifier l'envoi et la réception
+              d'échantillons pour le laboratoire.
+            </p>
+            <i class="techno ms-2">Symfony / JS / Bootstrap</i><br />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer p-5 mt-5" id="contacts">
+      <div class="d-flex justify-content-between">
+        <div>
+          <p class="">
+            Mes contacts :
+            <a
+              class="me-2"
+              target="_blank"
+              href="https://www.linkedin.com/in/killian-portier-784885224/"
+              ><i class="fa-brands fa-linkedin text-white"></i
+            ></a>
+            <a class="me-2" target="_blank" href="https://github.com/Killrian47"
+              ><i class="fa-brands fa-github text-white"></i
+            ></a>
+            <a class="me-2" href="mailto:portier.killian@yahoo.com"
+              ><i class="fa-solid fa-envelope text-white"></i
+            ></a>
+            <a class="me-2 tel-link" href="tel:0695357408">06.95.35.74.08</a>
+          </p>
         </div>
         <div>
-            <p>© 2023 Killian PORTIER</p>
+          <p>© 2023 Killian PORTIER</p>
         </div>
-    </div>
-</footer>
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
